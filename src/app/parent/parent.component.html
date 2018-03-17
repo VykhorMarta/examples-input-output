@@ -1,0 +1,15 @@
+<div *ngFor = "let element of array" >
+        <app-child [n] = "element"></app-child>
+
+  </div>
+  <div >
+    <app-child [a] = "name" [b] = "surname"></app-child>
+</div>
+
+<div *ngFor = "let all of skills" >
+  <app-skills [c] = "all"></app-skills>
+</div>
+
+<div>
+  <app-images [img] = "images"></app-images>
+</div>
